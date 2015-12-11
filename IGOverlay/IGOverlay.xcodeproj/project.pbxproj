@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3027CA1C1AED3D007B08C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3027C91C1AED3D007B08C0 /* main.m */; };
+		3F3027CD1C1AED3D007B08C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3027CC1C1AED3D007B08C0 /* AppDelegate.m */; };
+		3F3027D51C1AED3D007B08C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3027D41C1AED3D007B08C0 /* Assets.xcassets */; };
+		3F3027D81C1AED3D007B08C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3027D61C1AED3D007B08C0 /* LaunchScreen.storyboard */; };
+		3F3027E31C1AED3D007B08C0 /* IGOverlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3027E21C1AED3D007B08C0 /* IGOverlayTests.m */; };
+		3F3027EE1C1AED3D007B08C0 /* IGOverlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3027ED1C1AED3D007B08C0 /* IGOverlayUITests.m */; };
+		3F3027FE1C1AED59007B08C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3027FC1C1AED59007B08C0 /* ViewController.m */; };
+		3F3027FF1C1AED59007B08C0 /* wow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3027FD1C1AED59007B08C0 /* wow.jpg */; };
+		3F3028071C1AED67007B08C0 /* IGIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3028021C1AED67007B08C0 /* IGIndicator.m */; };
+		3F3028081C1AED67007B08C0 /* IGOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3028041C1AED67007B08C0 /* IGOverlay.m */; };
+		3F3028091C1AED67007B08C0 /* UIView+IG.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3028061C1AED67007B08C0 /* UIView+IG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3027DF1C1AED3D007B08C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3027BD1C1AED3C007B08C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3027C41C1AED3D007B08C0;
+			remoteInfo = IGOverlay;
+		};
+		3F3027EA1C1AED3D007B08C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3027BD1C1AED3C007B08C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3027C41C1AED3D007B08C0;
+			remoteInfo = IGOverlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3027C51C1AED3D007B08C0 /* IGOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3027C91C1AED3D007B08C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F3027CB1C1AED3D007B08C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F3027CC1C1AED3D007B08C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F3027D41C1AED3D007B08C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3027D71C1AED3D007B08C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3027D91C1AED3D007B08C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3027DE1C1AED3D007B08C0 /* IGOverlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGOverlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3027E21C1AED3D007B08C0 /* IGOverlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGOverlayTests.m; sourceTree = "<group>"; };
+		3F3027E41C1AED3D007B08C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3027E91C1AED3D007B08C0 /* IGOverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGOverlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3027ED1C1AED3D007B08C0 /* IGOverlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGOverlayUITests.m; sourceTree = "<group>"; };
+		3F3027EF1C1AED3D007B08C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3027FB1C1AED59007B08C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F3027FC1C1AED59007B08C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F3027FD1C1AED59007B08C0 /* wow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wow.jpg; sourceTree = "<group>"; };
+		3F3028011C1AED67007B08C0 /* IGIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGIndicator.h; sourceTree = "<group>"; };
+		3F3028021C1AED67007B08C0 /* IGIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGIndicator.m; sourceTree = "<group>"; };
+		3F3028031C1AED67007B08C0 /* IGOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGOverlay.h; sourceTree = "<group>"; };
+		3F3028041C1AED67007B08C0 /* IGOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGOverlay.m; sourceTree = "<group>"; };
+		3F3028051C1AED67007B08C0 /* UIView+IG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IG.h"; sourceTree = "<group>"; };
+		3F3028061C1AED67007B08C0 /* UIView+IG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IG.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3027C21C1AED3D007B08C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3027DB1C1AED3D007B08C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3027E61C1AED3D007B08C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3027BC1C1AED3C007B08C0 = {
+			isa = PBXGroup;
+			children = (
+				3F3027C71C1AED3D007B08C0 /* IGOverlay */,
+				3F3027E11C1AED3D007B08C0 /* IGOverlayTests */,
+				3F3027EC1C1AED3D007B08C0 /* IGOverlayUITests */,
+				3F3027C61C1AED3D007B08C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3027C61C1AED3D007B08C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3027C51C1AED3D007B08C0 /* IGOverlay.app */,
+				3F3027DE1C1AED3D007B08C0 /* IGOverlayTests.xctest */,
+				3F3027E91C1AED3D007B08C0 /* IGOverlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3027C71C1AED3D007B08C0 /* IGOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				3F3027CB1C1AED3D007B08C0 /* AppDelegate.h */,
+				3F3027CC1C1AED3D007B08C0 /* AppDelegate.m */,
+				3F3028001C1AED66007B08C0 /* IGOverlay */,
+				3F3027FB1C1AED59007B08C0 /* ViewController.h */,
+				3F3027FC1C1AED59007B08C0 /* ViewController.m */,
+				3F3027FD1C1AED59007B08C0 /* wow.jpg */,
+				3F3027D41C1AED3D007B08C0 /* Assets.xcassets */,
+				3F3027D61C1AED3D007B08C0 /* LaunchScreen.storyboard */,
+				3F3027D91C1AED3D007B08C0 /* Info.plist */,
+				3F3027C81C1AED3D007B08C0 /* Supporting Files */,
+			);
+			path = IGOverlay;
+			sourceTree = "<group>";
+		};
+		3F3027C81C1AED3D007B08C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3027C91C1AED3D007B08C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F3027E11C1AED3D007B08C0 /* IGOverlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3027E21C1AED3D007B08C0 /* IGOverlayTests.m */,
+				3F3027E41C1AED3D007B08C0 /* Info.plist */,
+			);
+			path = IGOverlayTests;
+			sourceTree = "<group>";
+		};
+		3F3027EC1C1AED3D007B08C0 /* IGOverlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3027ED1C1AED3D007B08C0 /* IGOverlayUITests.m */,
+				3F3027EF1C1AED3D007B08C0 /* Info.plist */,
+			);
+			path = IGOverlayUITests;
+			sourceTree = "<group>";
+		};
+		3F3028001C1AED66007B08C0 /* IGOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				3F3028011C1AED67007B08C0 /* IGIndicator.h */,
+				3F3028021C1AED67007B08C0 /* IGIndicator.m */,
+				3F3028031C1AED67007B08C0 /* IGOverlay.h */,
+				3F3028041C1AED67007B08C0 /* IGOverlay.m */,
+				3F3028051C1AED67007B08C0 /* UIView+IG.h */,
+				3F3028061C1AED67007B08C0 /* UIView+IG.m */,
+			);
+			path = IGOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3027C41C1AED3D007B08C0 /* IGOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3027F21C1AED3D007B08C0 /* Build configuration list for PBXNativeTarget "IGOverlay" */;
+			buildPhases = (
+				3F3027C11C1AED3D007B08C0 /* Sources */,
+				3F3027C21C1AED3D007B08C0 /* Frameworks */,
+				3F3027C31C1AED3D007B08C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGOverlay;
+			productName = IGOverlay;
+			productReference = 3F3027C51C1AED3D007B08C0 /* IGOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3027DD1C1AED3D007B08C0 /* IGOverlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3027F51C1AED3D007B08C0 /* Build configuration list for PBXNativeTarget "IGOverlayTests" */;
+			buildPhases = (
+				3F3027DA1C1AED3D007B08C0 /* Sources */,
+				3F3027DB1C1AED3D007B08C0 /* Frameworks */,
+				3F3027DC1C1AED3D007B08C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3027E01C1AED3D007B08C0 /* PBXTargetDependency */,
+			);
+			name = IGOverlayTests;
+			productName = IGOverlayTests;
+			productReference = 3F3027DE1C1AED3D007B08C0 /* IGOverlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3027E81C1AED3D007B08C0 /* IGOverlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3027F81C1AED3D007B08C0 /* Build configuration list for PBXNativeTarget "IGOverlayUITests" */;
+			buildPhases = (
+				3F3027E51C1AED3D007B08C0 /* Sources */,
+				3F3027E61C1AED3D007B08C0 /* Frameworks */,
+				3F3027E71C1AED3D007B08C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3027EB1C1AED3D007B08C0 /* PBXTargetDependency */,
+			);
+			name = IGOverlayUITests;
+			productName = IGOverlayUITests;
+			productReference = 3F3027E91C1AED3D007B08C0 /* IGOverlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3027BD1C1AED3C007B08C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "一斌";
+				TargetAttributes = {
+					3F3027C41C1AED3D007B08C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3F3027DD1C1AED3D007B08C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3F3027C41C1AED3D007B08C0;
+					};
+					3F3027E81C1AED3D007B08C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3F3027C41C1AED3D007B08C0;
+					};
+				};
+			};
+			buildConfigurationList = 3F3027C01C1AED3C007B08C0 /* Build configuration list for PBXProject "IGOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3027BC1C1AED3C007B08C0;
+			productRefGroup = 3F3027C61C1AED3D007B08C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3027C41C1AED3D007B08C0 /* IGOverlay */,
+				3F3027DD1C1AED3D007B08C0 /* IGOverlayTests */,
+				3F3027E81C1AED3D007B08C0 /* IGOverlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3027C31C1AED3D007B08C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3027D81C1AED3D007B08C0 /* LaunchScreen.storyboard in Resources */,
+				3F3027D51C1AED3D007B08C0 /* Assets.xcassets in Resources */,
+				3F3027FF1C1AED59007B08C0 /* wow.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3027DC1C1AED3D007B08C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3027E71C1AED3D007B08C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3027C11C1AED3D007B08C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3027FE1C1AED59007B08C0 /* ViewController.m in Sources */,
+				3F3028071C1AED67007B08C0 /* IGIndicator.m in Sources */,
+				3F3027CD1C1AED3D007B08C0 /* AppDelegate.m in Sources */,
+				3F3028081C1AED67007B08C0 /* IGOverlay.m in Sources */,
+				3F3028091C1AED67007B08C0 /* UIView+IG.m in Sources */,
+				3F3027CA1C1AED3D007B08C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3027DA1C1AED3D007B08C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3027E31C1AED3D007B08C0 /* IGOverlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3027E51C1AED3D007B08C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3027EE1C1AED3D007B08C0 /* IGOverlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3027E01C1AED3D007B08C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3027C41C1AED3D007B08C0 /* IGOverlay */;
+			targetProxy = 3F3027DF1C1AED3D007B08C0 /* PBXContainerItemProxy */;
+		};
+		3F3027EB1C1AED3D007B08C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3027C41C1AED3D007B08C0 /* IGOverlay */;
+			targetProxy = 3F3027EA1C1AED3D007B08C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3027D61C1AED3D007B08C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3027D71C1AED3D007B08C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3027F01C1AED3D007B08C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F3027F11C1AED3D007B08C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3027F31C1AED3D007B08C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IGOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGalactus.IGOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F3027F41C1AED3D007B08C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IGOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGalactus.IGOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F3027F61C1AED3D007B08C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IGOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGalactus.IGOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGOverlay.app/IGOverlay";
+			};
+			name = Debug;
+		};
+		3F3027F71C1AED3D007B08C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IGOverlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGalactus.IGOverlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGOverlay.app/IGOverlay";
+			};
+			name = Release;
+		};
+		3F3027F91C1AED3D007B08C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGOverlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGalactus.IGOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IGOverlay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F3027FA1C1AED3D007B08C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGOverlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iGalactus.IGOverlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IGOverlay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3027C01C1AED3C007B08C0 /* Build configuration list for PBXProject "IGOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3027F01C1AED3D007B08C0 /* Debug */,
+				3F3027F11C1AED3D007B08C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3027F21C1AED3D007B08C0 /* Build configuration list for PBXNativeTarget "IGOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3027F31C1AED3D007B08C0 /* Debug */,
+				3F3027F41C1AED3D007B08C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3027F51C1AED3D007B08C0 /* Build configuration list for PBXNativeTarget "IGOverlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3027F61C1AED3D007B08C0 /* Debug */,
+				3F3027F71C1AED3D007B08C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F3027F81C1AED3D007B08C0 /* Build configuration list for PBXNativeTarget "IGOverlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3027F91C1AED3D007B08C0 /* Debug */,
+				3F3027FA1C1AED3D007B08C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F3027BD1C1AED3C007B08C0 /* Project object */;
+}
